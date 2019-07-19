@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Sign in your cccount</title>
         <link href="css/signin.css" rel="stylesheet">
     </head>
     <body>
         <header class="header">
-            <a href="homepage.html"><img src="img/braclogo.png" height="50px" width="150px"></a>
+            <a href="index.html"><img src="img/braclogo.png" height="50px" width="150px"></a>
             <div style="text-align: center;font-size: 30px;color: white;font-family:  cursive;">Realtime Data Collection System</div>
         </header>
         <div class="body">
@@ -14,10 +15,10 @@
             <fieldset class="Fieldset">
                 <legend><b>User Login</b></legend>
                 User ID:<br>
-                <input type="text"><br><br>
+                <input type="text" required><br><br>
                 Password:<br>
-                <input type="password"><br><br><br>
-                <input class="signinButton" type="button" placeholder="Sign In">
+                <input type="password" required><br><br><br>
+                <button class="signinButton" type="submit">Sign In</button>
                 <div style="margin-top: 3%;">
                     Forget password? <a href="#" style="color: aqua;">click here</a>
                 </div>

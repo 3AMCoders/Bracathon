@@ -1,14 +1,9 @@
-* {
-    margin: 0;
-    padding: 0
-}
-
-body {
+* { margin:0; padding:0 }
+body{
     color: black;
     background-color: #cccccc;
 }
-
-header {
+header{
     display: -webkit-flex;
     display: flex;
     -webkit-flex-wrap: wrap;
@@ -19,27 +14,24 @@ header {
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 12px;
-    box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
-
-#header:hover {
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+#header:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
-
-header #logo {
+header #logo{
     -webkit-flex: 1 1 200px;
-    flex: 1 1 200px;
-    height: 50px;
-    background: #4FC04F;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-align-items: center;
-    align-items: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    padding: 10px 0px 0px 10px;
+     flex: 1 1 200px;
+     height: 50px;
+     background: #4FC04F;
+     display: -webkit-flex;
+     display: flex;
+     -webkit-align-items: center;
+     align-items: center;
+     -webkit-justify-content: center;
+     justify-content: center;
+     padding: 10px 0px 0px 10px;
 }
-
 header nav {
     -webkit-flex: 1 1 auto;
     flex: 1 1 auto;
@@ -51,17 +43,17 @@ header nav {
     align-items: center;
     -webkit-justify-content: space-around;
     justify-content: space-around;
-}
-
+  }
+  
 header nav a {
-    -webkit-flex: 0 0 auto;
-    flex: 0 0 auto;
+   -webkit-flex: 0 0 auto;
+   flex: 0 0 auto;
     box-sizing: border-box;
     width: 100px;
     height: 50px;
     margin: 10px;
     padding: 7px;
-    background: #4FC04F;
+    background:#4FC04F;
     border-radius: 50px;
     border: 2px solid white;
     color: white;
@@ -73,67 +65,59 @@ header nav a {
     display: flex;
     -webkit-align-items: center;
     align-items: center;
-}
-
-header nav a:hover {
+  }
+  header nav a:hover{
     color: #4FC04F;
     background-color: white;
 }
-
-.home {
-    font-family: cursive;
+.home{
+    font-family:  cursive;
     text-align: center;
     font-size: 60px;
     color: white;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    /* margin: 40px 40px 40px 40px;*/
-    background-color: rgba(30, 30, 30, 0.7);
+    transform: translate(-50%,-50%);
+   /* margin: 40px 40px 40px 40px;*/
+    background-color: rgba(30,30,30, 0.7);
 }
-
-.HomeSignupButton {
+.HomeSignupButton{
     display: inline-block;
-    border-radius: 4px;
-    background-color: #f4511e;
-    border: none;
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 28px;
-    padding: 20px;
-    width: 200px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin: 5px;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
 }
-
 .HomeSignupButton span {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
 }
-
-.HomeSignupButton span::after {
+.HomeSignupButton span::after{
     content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
 }
-
-.HomeSignupButton:hover span {
+.HomeSignupButton:hover span{
     padding-right: 25px;
 }
-
-.HomeSignupButton:hover span::after {
+.HomeSignupButton:hover span::after{
     opacity: 1;
     right: 0;
 }
-
-.footer {
+.footer{
     text-align: end;
     margin-top: 1%;
     margin-right: 10%;
